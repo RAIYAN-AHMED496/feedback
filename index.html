@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <label>Face Value</label>
+    <input type="text" class="js-face-value" placeholder="Face Value">
+    <label>Interest</label>
+    <input type="text" class="js-interest-rate" placeholder="Interest">
+    <label>Net Sales Value</label>
+    <input type="text" class="js-net-sales-value" placeholder="Net Sales Value">
+    <label>Tax Rate</label>
+    <input type="text" class="js-text-rate" placeholder="Text Rate">
+    <button onclick="
+      calculate();
+    " class="calculate-button">Caluculate</button>
+    <p class="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
